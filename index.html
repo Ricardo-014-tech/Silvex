@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Ricardo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <h1>Ricardo - Desenvolvedor Web</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção Sobre -->
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <p>Sou um desenvolvedor iniciante apaixonado por criar sites rápidos, modernos e funcionais. Meu objetivo é ajudar pequenos negócios e profissionais a se destacarem online.</p>
+        </div>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projetos">
+        <div class="container">
+            <h2>Meus Projetos</h2>
+            <div class="projeto">
+                <h3>Projeto 1: Loja Virtual</h3>
+                <p>Site fictício para uma loja virtual de eletrônicos. Inclui carrinho de compras e sistema de busca.</p>
+            </div>
+            <div class="projeto">
+                <h3>Projeto 2: Blog de Tecnologia</h3>
+                <p>Design simples e responsivo para um blog de notícias e dicas sobre tecnologia.</p>
+            </div>
+            <div class="projeto">
+                <h3>Projeto 3: Portfólio Moderno</h3>
+                <p>Modelo de portfólio para designers ou desenvolvedores. Layout minimalista e profissional.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <form action="https://formspree.io/f/{seu-email}" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ricardo - Todos os direitos reservados</p>
+        </div>
+    </footer>
+</body>
+</html>
